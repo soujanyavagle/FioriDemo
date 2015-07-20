@@ -41,9 +41,6 @@ sap.ui.controller("form_demo.Demo", {
 //	}
 	
 	
-	
-	
-	
 	onPress: function(){
 		
 		
@@ -119,9 +116,6 @@ sap.ui.controller("form_demo.Demo", {
 						
 					}]
 						};	
-
-			
-		//	alert("Json Atrray data Is :"+ '<br>'+"first name : " + myData.myArray[0].fname +"last name : " + myData.myArray[0].lname + "contact at:"+ myData.myArray[0].cno +"email id :"+ myData.myArray[0].email );
 		   
 			 var oModel = new sap.ui.model.json.JSONModel(myData);//create JSON model instance
 			   sap.ui.getCore().setModel(oModel,"LoginModel");//set the data for the model
