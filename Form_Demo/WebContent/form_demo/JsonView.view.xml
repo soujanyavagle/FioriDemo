@@ -1,0 +1,57 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="form_demo.JsonView" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="JSON Employee View">
+		<content>
+		   <html:style>
+                 .myText {
+color:Black;
+padding:4px;
+textAlign="Right"
+hAlign="Center"
+   }
+          </html:style>
+		<VBox fitContainer="true" justifyContent="Center" alignItems="Center">
+
+            <Label class="myText"  id="idWl" text=" " design="Bold"  />
+
+            
+              <Label class="myText"  id="idWl1" text=" " design="Bold" />
+            
+                <Label class="myText" id="idWl2" text=" " design="Bold" />
+                
+               <Label  class="myText" id="idWl3" text=" " design="Bold" />
+               <Label class="myText" id="idWl4" text=" " design="Bold" />
+            
+            
+            
+            </VBox>
+            
+            
+            
+            
+            
+            
+	 <!-- <Table items="{/myArray1}" insert="false" id="t1"> 
+		<headerToolbar> 
+		<Toolbar><Label text="Employee"/> </Toolbar> 
+		</headerToolbar>
+		<columns>
+		<Column> <Text text="First_NAME"/></Column> 
+		<Column> <Text text="Last_NAME"/></Column>
+		<Column> <Text text="Contact_no."/></Column> 
+		<Column> <Text text="Email_id"/></Column> 
+		</columns>
+		<items> 
+		<ColumnListItem> 
+		<cells> 
+		<ObjectIdentifier title="{fname}"/> 
+		<ObjectIdentifier title="{lname}"/>
+		<ObjectIdentifier title="{cno}"/> 
+		<ObjectIdentifier title="{email}"/>
+		 </cells> 
+		</ColumnListItem>
+		</items> 
+		</Table>  -->
+		</content>
+	</Page>
+</core:View>

@@ -1,0 +1,51 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="form_demo.Demo" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+		<Label text="First Name" />
+		<Input
+        id="fname"
+        type="Text"
+        placeholder="First Name..."
+        >
+        </Input>
+        
+        <Label text="Last Name" />
+		<Input
+        id="lname"
+        type="Text"
+        placeholder="Last Name..."
+        >
+        </Input>
+		
+		<Label text="Phone Number" />
+		<Input
+        id="phno"
+        type="Text"
+        placeholder="Phone Number..."
+        >
+        </Input>
+		
+	 <Label text="Email_Id" />
+		<Input
+        id="eid"
+        type="Text"
+        placeholder="Email_ID..."
+        >
+        </Input>
+        
+        <Button type="Accept"
+            text="Accept"
+            press="onPress"
+            ></Button>
+            
+            
+       
+        
+
+
+		
+     
+		</content>
+	</Page>
+</core:View>
