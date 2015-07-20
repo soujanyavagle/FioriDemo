@@ -72,8 +72,6 @@ sap.ui.controller("form_demo.Demo", {
 		     alert("Invalid First Name");
 		}
 		
-	
-		
 		if(phone_number == "" || phone_number == null)
         {
          this.getView().byId("phno").setValueState("Error");
@@ -83,13 +81,10 @@ sap.ui.controller("form_demo.Demo", {
         }
       else
          this.getView().byId("phno").setValueState("None");
+		
 		if( !phone_number.match(pno) ){
 		     alert("Invalid Phone Number");
 		}
-		
-		
-		
-		
 		if(email == "" || email == null)
         {
          this.getView().byId("eid").setValueState("Error");
