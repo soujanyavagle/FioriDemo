@@ -115,7 +115,7 @@ sap.ui.controller("form_demo.Demo", {
 			 var oModel = new sap.ui.model.json.JSONModel(myData);//create JSON model instance
 			   sap.ui.getCore().setModel(oModel,"LoginModel");//set the data for the model
 			   sap.ui.controller("form_demo.JsonView").onPick();
-			alert("added into git...");
+			//alert("added into git...");
 			 app.to("idView1");
 			
 		}
